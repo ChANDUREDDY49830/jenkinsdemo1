@@ -1,12 +1,12 @@
-import.java.applet.*;
-import.java.aws.*;
+import java.applet.*;
+import java.awt.*;
 
 /*<applet code="AppletDemo.class" width="300" height="300">
-</applet>
-public class AppletDemo extends Applet
+</applet>*/
+public class Appletdemo1 extends Applet
 {
-public void pant(Graphics g)
+public void paint(Graphics g)
 {
-g.drawString("Hello World!,100,150);
+g.drawString("Hello World!",100,150);
 }
 }
